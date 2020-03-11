@@ -8,4 +8,4 @@
 
 - Presencia de *formulario*, tanto a la hora de registro como de logueo.
 
-- Utilización de la estructura de *tablas* y *listas*.
+- Utilización de la estructura de *tablas* y *listas* (tanto ordenadas como no ordenadas).
