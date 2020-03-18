@@ -1,0 +1,92 @@
+html
+{
+  position: absolute;
+  width: 770px;
+  height: 800px;
+  
+  font-family: Arial;
+  font-size: 1.5em;
+  color: black;
+
+  background: lightblue;
+}
+
+/* barra de navegacion */
+.barra
+{
+  border: 1px solid black;
+  width: 430px;
+  height: 100px;
+  position: absolute;
+  right: 0px;
+  background-image: url( "https://picsum.photos/430/100");
+}
+
+/* zona de contenido secundario*/
+.secundario
+{
+  border: 1px solid black;
+  position: absolute;
+  width: 330px;
+  height: 93%;
+  left: 0px;
+}
+
+/* zona de texto principal */
+.principal
+{
+  position: absolute;
+  border: 1px solid black;
+  width: 210px;
+  top: 120px;
+  left: 340px;
+  height: 79%;
+}
+
+/* zona de enlaces a sitios relevantes */
+.relevantes
+{
+  position: absolute;
+  border: 1px solid black;
+  width: 210px;
+  top: 120px;
+  right: 0px;
+  height: 79%;
+}
+
+/* footer */
+footer 
+{  
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+
+  border: 1px solid black;
+  width: 100%;
+
+  text-align: center;
+}
+
+/* links */
+a, a:visited{color: blue;}
+a:hover{color: red;}
+
+/* tabla */
+table, tr, td
+{
+  border: 1px solid black;
+}
+table a,table a:visited{color:green;}
+table a:hover{color: red;}
+
+/* parrafo */
+p {margin-top: 0.5em;}
+
+/* menú */
+menu elemento {
+  padding: 0.3em;
+  margin-bottom: 0.7em;
+  background: white;
+}
+
+menu elemento:hover {background:pink;}
