@@ -12,3 +12,6 @@ El objetivo de esta [práctica](P1/Informe_HTTP.md) consiste en analizar ciertas
 
 ## Práctica 2: Introducción HTML
 El objetivo que persigue esta [práctica](P2/Informe_HTML.md) es la realización de una página web, exclusivamente en formato *HTML* sobre la aplicación **Banco de Tiempo**. Para ello, se ha de utilizar los distintos elementos de *HTML5*, mencionados por el profesorado, para dicha implementación.
+
+## Práctica 3: Introducción CSS
+El objetivo principal de esta [práctica](P3/Informe_CSS.md) se basa en la aplicación de estilo (formato, fuente, ...) a una página web de formato *HTML5*, con el fin de establecer una cierta estructura y ordenación de los elementos que son empleados en dicha web. Por ese motivo, se pretende establecer una página web atractiva, accesible y cumpla con los parámetros de usabilidad.
