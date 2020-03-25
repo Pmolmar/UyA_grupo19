@@ -10,4 +10,4 @@
 
 - Creación de imágenes circulares que se adaptan a las dimensiones de la página.
 
-- Establecimiento de un footer en la respectiva página web.
+- Establecimiento de un footer en la respectiva página web. 
