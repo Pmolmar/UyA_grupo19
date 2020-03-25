@@ -15,3 +15,10 @@ El objetivo que persigue esta [práctica](P2/Informe_HTML.md) es la realización
 
 ## Práctica 3: Introducción CSS
 El objetivo principal de esta [práctica](P3/Informe_CSS.md) se basa en la aplicación de estilo (formato, fuente, ...) a una página web de formato *HTML5*, con el fin de establecer una cierta estructura y ordenación de los elementos que son empleados en dicha web. Por ese motivo, se pretende establecer una página web atractiva, accesible y cumpla con los parámetros de usabilidad.
+
+## Práctica 4: Introducción Materialize
+El objetivo que se pretende conseguir con esta [práctica](P4/Informe_Materialize.md) es emplear un framework conocido como **Materialize**. Esto permite mejorar el diseño de la página web realizado en la practica anterior. Para ello, se ha empleado la web de [Materialize](http://materializecss.com) que nos proporciona recursos de gran utilidad para nuestra página web.
+
+
+
+
