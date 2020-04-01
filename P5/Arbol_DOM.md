@@ -1,6 +1,6 @@
 #Árbol DOM
 
-![Arbol DOM]()
+![Arbol DOM]() 
 
 
 ## Código fuente HTML
