@@ -19,6 +19,7 @@ El objetivo principal de esta [práctica](P3/Informe_CSS.md) se basa en la aplic
 ## Práctica 4: Introducción Materialize
 El objetivo que se pretende conseguir con esta [práctica](P4/Informe_Materialize.md) es emplear un framework conocido como **Materialize**. Esto permite mejorar el diseño de la página web realizado en la practica anterior. Para ello, se ha empleado la web de [Materialize](http://materializecss.com) que nos proporciona recursos de gran utilidad para nuestra página web.
 
-
+## Práctica 5: Introducción JavaScript
+El objetivo de esta [práctica](P5/Informe_JavaScript.md) es familiarizarnos con el lenguaje JavaScript realizando diferentes scripts y esquemas. Este lenguaje nos permite crear una página web dinámica, es decir, una web que incorpora efectos como texto que aparece y desaparece, animaciones, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario.
 
 
