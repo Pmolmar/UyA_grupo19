@@ -22,4 +22,7 @@ El objetivo que se pretende conseguir con esta [práctica](P4/Informe_Materializ
 ## Práctica 5: Introducción JavaScript
 El objetivo de esta [práctica](P5/Informe_JavaScript.md) es familiarizarnos con el lenguaje JavaScript realizando diferentes scripts y esquemas. Este lenguaje nos permite dar funcionalidad y utilidad real a la web y a su vez crear una página web dinámica, es decir, una web que incorpora efectos como texto que aparece y desaparece, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario, etc.
 
+## Práctica 6: Introducción Ajax
+El objetivo de esta [práctica](P6/Informe_Ajax.md) es
+
 
