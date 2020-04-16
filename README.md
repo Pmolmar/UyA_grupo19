@@ -17,15 +17,15 @@ El objetivo que persigue esta [práctica](P2/Informe_HTML.md) es la realización
 El objetivo principal de esta [práctica](P3/Informe_CSS.md) se basa en la aplicación de estilo (formato, fuente, ...) a una página web de formato *HTML5*, con el fin de establecer una cierta estructura y ordenación de los elementos que son empleados en dicha web. Por ese motivo, se pretende establecer una página web atractiva, accesible y cumpla con los parámetros de usabilidad.
 
 ## Práctica 4: Introducción Materialize
-- [Hosted](https://WebMaterialize--pmolmar.repl.co)
+- [Hosted](https://WebMaterialize--pmolmar.repl.co)<br>
 El objetivo que se pretende conseguir con esta [práctica](P4/Informe_Materialize.md) es emplear un framework conocido como **Materialize**. Esto permite mejorar el diseño de la página web realizado en la practica anterior. Para ello, se ha empleado la web de [Materialize](http://materializecss.com) que nos proporciona recursos de gran utilidad para nuestra página web.
 
 ## Práctica 5: Introducción JavaScript
-- [Hosted](https://JS--pmolmar.repl.co)
+- [Hosted](https://JS--pmolmar.repl.co)<br>
 El objetivo de esta [práctica](P5/Informe_JavaScript.md) es familiarizarnos con el lenguaje JavaScript realizando diferentes scripts y esquemas. Este lenguaje nos permite dar funcionalidad y utilidad real a la web y a su vez crear una página web dinámica, es decir, una web que incorpora efectos como texto que aparece y desaparece, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario, etc.
 
 ## Práctica 6: Introducción Ajax
-- [Hosted](https://Ajax--pmolmar.repl.co)
+- [Hosted](https://Ajax--pmolmar.repl.co)<br>
 El objetivo que persigue esta [práctica](P6/Informe_Ajax.md) se basa en la aplicación de **Ajax**, para la solicitud de un parámetro correspondiente a una *url* dada, cuyo valor es variable; y así obtener la información deseada con respecto a la solicitada por el usuario.
 
 
