@@ -1,4 +1,5 @@
 # Informe Práctica 6: Introducción Ajax
+[Hosted](https://Ajax--pmolmar.repl.co)
 
 - Realización de la página web donde se solicita la inserción del valor del **postId**, para obtener su contenido.
 
