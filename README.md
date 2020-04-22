@@ -22,10 +22,15 @@ El objetivo que se pretende conseguir con esta [práctica](P4/Informe_Materializ
 
 ## Práctica 5: Introducción JavaScript
 - [Hosted](https://JS--pmolmar.repl.co)<br>
-El objetivo de esta [práctica](P5/Informe_JavaScript.md) es familiarizarnos con el lenguaje JavaScript realizando diferentes scripts y esquemas. Este lenguaje nos permite dar funcionalidad y utilidad real a la web y a su vez crear una página web dinámica, es decir, una web que incorpora efectos como texto que aparece y desaparece, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario, etc.
+El objetivo de esta [práctica](P5/Informe_JavaScript.md) es familiarizarnos con el lenguaje **JavaScript** realizando diferentes scripts y esquemas. Este lenguaje nos permite dar funcionalidad y utilidad real a la web y a su vez crear una página web dinámica, es decir, una web que incorpora efectos como texto que aparece y desaparece, acciones que se activan al pulsar botones y ventanas con mensajes de aviso al usuario, etc.
 
 ## Práctica 6: Introducción Ajax
 - [Hosted](https://Ajax--pmolmar.repl.co)<br>
 El objetivo que persigue esta [práctica](P6/Informe_Ajax.md) se basa en la aplicación de **Ajax**, para la solicitud de un parámetro correspondiente a una *url* dada, cuyo valor es variable; y así obtener la información deseada con respecto a la solicitada por el usuario.
+
+# Informe Práctica 7: Introducción Firebase
+- [Hosted](https://WebMaterialize--pmolmar.repl.co)<br>
+El objetivo principal de esta [práctica](P7/Informe_Firebase.md) se basa en la utilización de **Firebase** para tratar con una **base de datos** en tiempo real. Este nos permite almacenar datos o realizar consultas de información que se hayan insertado en la *Database*. Para ello, su aplicación se ha orientado en el registro de usuarios, para la plataforma web que se está desarrollando.
+
 
 
