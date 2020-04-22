@@ -3,7 +3,7 @@
 
 - La página llevaba a cabo en la sección de práctica **Web Materialize**, se toma para establecer su funcionalidad con Firebase.
 
-- Se ha aplicado la **Database** para el registro de los usuarios y su inicio de sesión.
+- Se ha aplicado la **Database** para el registro de los usuarios y su inicio de sesión. Se establece un usuario **admin** para el uso de la BBDD, ya que no reconocía la sentencia para filtrar usuarios repetidos.
 
 ![BBDD](https://github.com/Pmolmar/UyA_grupo19/blob/master/P7/screenshots/vacio.png)
 
