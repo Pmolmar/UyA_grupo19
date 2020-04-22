@@ -28,9 +28,9 @@ El objetivo de esta [práctica](P5/Informe_JavaScript.md) es familiarizarnos con
 - [Hosted](https://Ajax--pmolmar.repl.co)<br>
 El objetivo que persigue esta [práctica](P6/Informe_Ajax.md) se basa en la aplicación de **Ajax**, para la solicitud de un parámetro correspondiente a una *url* dada, cuyo valor es variable; y así obtener la información deseada con respecto a la solicitada por el usuario.
 
-# Informe Práctica 7: Introducción Firebase
+## Práctica 7: Introducción Firebase
 - [Hosted](https://WebMaterialize--pmolmar.repl.co)<br>
-El objetivo principal de esta [práctica](P7/Informe_Firebase.md) se basa en la utilización de **Firebase** para tratar con una **base de datos** en tiempo real. Este nos permite almacenar datos o realizar consultas de información que se hayan insertado en la *Database*. Para ello, su aplicación se ha orientado en el registro de usuarios, para la plataforma web que se está desarrollando.
+El objetivo principal de esta [práctica](P7/Informe_Firebase.md) se basa en la utilización de **Firebase** para tratar con una **base de datos** en tiempo real. Este nos permite almacenar datos o realizar consultas de información que se hayan insertado en la *Database*. Para ello, su aplicación se ha **orientado** en el registro de usuarios, para la plataforma web que se está desarrollando.
 
 
 
