@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Firebase Cliente Web</title>
+</head>
+
+<body>
+	<h1>Test con Firebase</h1>
+	<p id="infoFire"> </p>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js">
+	</script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js">
+	</script>
+
+
+	<script>
+		// Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBPDZ6sQbktiTL4dgrk_hbTkRfOlb0adbI",
+    authDomain: "uya-2020.firebaseapp.com",
+    databaseURL: "https://uya-2020.firebaseio.com",
+    projectId: "uya-2020",
+    storageBucket: "uya-2020.appspot.com",
+    messagingSenderId: "933742841092",
+    appId: "1:933742841092:web:25b2087d059ba4d8a55451",
+    measurementId: "G-GTNZW330ES"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+      //Referencia a la base de datos
+      var database = firebase.database();
+      var referencia = database.ref('usuario3');
+      //Escribir un documento
+      referencia.set({
+            actividad: 'tutorías',
+            fecha: '18 de abril',
+            usuario: 'Isa'
+        });
+      //Consultar datos, se muestran todos los datos en la raíz
+      referencia = database.ref('/');
+      referencia.once('value', snapshot => {
+        console.log(snapshot.val());
+      });
+      //Consultar datos, se muestra la actividad del usuario1
+      referencia = database.ref('/usuario1');
+      referencia.on('value', snapshot => {
+        console.log('_______________________');
+        console.log(snapshot.val().actividad);
+      });
+      //Consultar datos, se accede a la actividad del usuario2
+      referencia = database.ref('/usuario2/actividad');
+      referencia.on('value', snapshot => {
+        console.log('_______________________');
+        console.log(snapshot.val());
+      });
+	</script>
+</body>
+
+</html>
