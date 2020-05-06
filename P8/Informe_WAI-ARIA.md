@@ -11,7 +11,7 @@
 - Además, se utiliza `role` para dar apoyo a elementos con información esencial para **garantizar** su accesibilidad.
 
 - Por tanto, esta página posee diversos elementos como la barra principal, correspondiente al **header**, con su logo y su menú:
-	- [![Video navigation](https://youtu.be/XXmpUsmi9nc)](https://youtu.be/XXmpUsmi9nc)
+[![Video navigation](https://youtu.be/XXmpUsmi9nc)](https://youtu.be/XXmpUsmi9nc)
 
 - Por otro lado, se establece relaciones entre elementos que proporciona una **ayuda textual** a la hora de realizar formularios y señala contenido ubicado en una sección que permite **identificar** la ubicación del elemento al que se accede:
-	- [![Video formulario](https://youtu.be/rj_5lB-1Cqs)](https://youtu.be/rj_5lB-1Cqs)
+[![Video formulario](https://youtu.be/rj_5lB-1Cqs)](https://youtu.be/rj_5lB-1Cqs)
