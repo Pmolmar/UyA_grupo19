@@ -32,5 +32,8 @@ El objetivo que persigue esta [práctica](P6/Informe_Ajax.md) se basa en la apli
 - [Hosted](https://WebMaterialize--pmolmar.repl.co)<br>
 El objetivo principal de esta [práctica](P7/Informe_Firebase.md) se basa en la utilización de **Firebase** para tratar con una **base de datos** en tiempo real. Este nos permite almacenar datos o realizar consultas de información que se hayan insertado en la *Database*. Para ello, su aplicación se ha **orientado** en el registro de usuarios, para la plataforma web que se está desarrollando.
 
+## Práctica 8: Introducción WAI-ARIA
+- [Hosted](https://WebMaterialize--pmolmar.repl.co)<br>
+El objetivo que se pretende conseguir con esta [práctica](P8/Informe_WAI-ARIA.md) es mejorar la accesibilidad de la página web que se está desarrollando mediante un etiquetado apropiado con **WAI-ARIA**. Para ello, se toma la página desarrollada en la práctica de WebMaterialize, ya que contiene diversos formularios.
 
 
