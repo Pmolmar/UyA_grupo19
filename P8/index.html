@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Banco de Tiempo</title>
+
+	<!-- Nuestros stilos -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<!--Google Font  -->
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+
+<body>
+	<header>
+		<nav>
+			<div class="nav-wrapper cyan lighten-3">
+				<a href="#!" class="brand-logo left" aria-label="Logo de pagina" role="button"><i aria-hidden="true" class="material-icons">access_time</i>Banco de Tiempo</a>
+				<a href="#" data-target="mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li role="menuitem" ><a href="#" aria-label="Home">Home</a></li>
+          <li role="menuitem"><a href="#" aria-label="Novedades" >Novedades</a></li>
+          <li role="menuitem"><a href="#" aria-label="Foro" >Foro</a></li>
+          <li role="menuitem"><a href="#" aria-label="Funcionamiento" >Funcionamiento</a></li>
+        </ul>
+
+        <ul aria-hidden="true" class="sidenav" id="mobile">
+          <li tabindex="-1"><a href="#">Home</a></li>
+          <li tabindex="-1"><a href="#">Novedades</a></li>
+          <li tabindex="-1"><a href="#">Foro</a></li>
+          <li tabindex="-1"><a href="#">Funcionamiento</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container">
+    <div class="row">
+      <h1>Home</h1>
+      <h2>Esta es una web para utilizar el banco de tiempo</h2>
+
+      <!-- Carrusel  -->
+      <div aria-hidden="true" class="carousel carousel-slider">
+        <a tabindex="-1" class="carousel-item" href="#one!"><img src="https://i.picsum.photos/id/1/800/400.jpg"></a>
+        <a tabindex="-1" class="carousel-item" href="#two!"><img src="https://i.picsum.photos/id/20/800/400.jpg"></a>
+        <a tabindex="-1" class="carousel-item" href="#three!"><img src="https://i.picsum.photos/id/4/800/400.jpg"></a>
+        <a tabindex="-1" class="carousel-item" href="#four!"><img src="https://i.picsum.photos/id/3/800/400.jpg"></a>
+      </div>
+    </div>
+
+    <!-- Log in y sign up -->
+    <div class="row">
+      <div class="col m5 s12 card large hoverable">
+        <h3>Log in</h3>
+        <div class="card-stacked">
+          <div class="row card-content">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <a href="#" class="card-action" type="submit" name="action" id="login" role="button" Submit">Submit
+            <i class="material-icons right">send</i>
+          </a>
+        </div>
+      </div>
+      
+      <!-------------------------------->
+      <div class="col m5 offset-m2 s12 card large hoverable">
+        <h3>Sing up</h3>
+        <div class="card-stacked">
+        <div class="row card-content">
+          <form class="col s12">
+            <div class="row">
+               <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email_sub" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password_sub" type="password" class="validate">
+                <label for="password">Password</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <a href="#" class="card-action" type="submit" name="action" id="singup" role="button" aria-label="Submit">Submit
+            <i class="material-icons right">send</i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col m10 s12">
+        <h2>Aplicación Banco de Tiempo</h2>
+        <p>Esta página está destinada al uso de nuestra aplicación banco de tiempo<p>
+
+        <h5>Reviews de usuarios:</h5>
+
+         <div class="row valign-wrapper">
+            <div class="col s2">
+              <center>             
+                <img src="https://lorempixel.com/80/80/people/6" alt="" class="circle responsive-img">
+                Pedro
+              </center>              
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+              Es una de las mejores aplicaciones de banco de tiempo que he probado.
+              </span>
+            </div>
+          </div> 
+
+         <div class="row valign-wrapper">
+            <div class="col s2">
+              <center>
+                <img src="https://lorempixel.com/80/80/people/7" alt="" class="circle responsive-img">
+                Maria 
+              </center>
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+              Esta aplicación es muy útil para solucionar los problemas en el día a día.
+              </span>
+            </div>
+          </div> 
+
+         <div class="row valign-wrapper">
+            <div class="col s2">
+              <center>              
+                <img src="https://lorempixel.com/80/80/people/8" alt="" class="circle responsive-img">
+                Antonio
+              </center>
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+              Nunca había probado el banco de tiempo y es uno de los mejores descubrimientos que he hecho.
+              </span>
+            </div>
+          </div> 
+
+        <h5>Objetivos: </h5>
+        <ul>
+          <li>• La gestión del tiempo como moneda virtual.</li>
+          <li>• Intercambio de servicios.</li>
+        </ul>
+
+        <h5>Acciones ilícitas:</h5>
+        <ol>
+          <li>No se permitirán la creaciones de cuentas falsas por lo que se vincularán a un DNI.</li>
+          <li>No se permitirán la petición de tareass que hagan daño o hagan sentir incómodos a otros usuarios.</li>
+        </ol>
+      </div>
+    <div>
+
+  </section>
+
+
+
+
+	<footer class="page-footer cyan lighten-3">
+    <div class="row">
+      <div class="col s3 offset-s1">
+			  Tlf: 666-666-666
+      </div>
+      <div class="col s3 offset-s1">
+        Email: empresa@ull.es  
+      </div>
+      <div class="col s3 offset-s1">
+        Compañia S.L
+      </div>
+    </div>
+    <div class="footer-copyright">
+			<div class="container">
+			 © 2020 Copyright Text
+				<a class="grey-text text-lighten-4 right" href="#!">Informacion Legal</a>
+			</div>
+		</div>
+	</footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+	  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js">
+	  </script>
+	  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js">
+	  </script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- Nuestro script -->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
