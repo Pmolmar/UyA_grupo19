@@ -36,4 +36,8 @@ El objetivo principal de esta [práctica](P7/Informe_Firebase.md) se basa en la 
 - [Hosted](https://WebMaterialize--pmolmar.repl.co)<br>
 El objetivo que se pretende conseguir con esta [práctica](P8/Informe_WAI-ARIA.md) es mejorar la accesibilidad de la página web que se está desarrollando mediante un etiquetado apropiado con **WAI-ARIA**. Para ello, se toma la página desarrollada en la práctica de WebMaterialize, ya que contiene diversos formularios.
 
+## Práctica 9: Widgets Accesibles
+- [Hosted](https://WebMaterialize--pmolmar.repl.co)<br>
+El objetivo de esta [práctica](P9/Informe_Widgets.md) consiste en aplicar distintos **widgets de Materialize** como *carousel*, *accordion* y *breadcrums*. Estas hay que adaptarlas tanto para la usabilidad como accesibiidad del usuario. Así mismo, se trabaja tanto con *aria* para que dicha accesibilidad se aprecie al usar *ChromeVox*.
+
 
