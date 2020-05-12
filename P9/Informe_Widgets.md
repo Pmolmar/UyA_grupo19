@@ -6,7 +6,7 @@
 1. **Acordeón (Funcionamiento):**
 
 - **html**
-~~~
+~~~html
 <main class="container">
  <h1>Funcionamiento</h1>
  <ul class="collapsible popout" aria-expanded="false">
@@ -35,7 +35,7 @@
 ~~~
 
 - **js**
-~~~
+~~~JavaScript
 document.addEventListener('DOMContentLoaded', function() {
    let elems = document.querySelectorAll('.collapsible');
    let instances = M.Collapsible.init(elems);
@@ -79,7 +79,7 @@ accordionElems.forEach((accordionElem) => {
 2. **BreadCrumbs (todas las páginas):**
 
 - **html**
-~~~
+~~~html
  <nav>
    <div class="nav-wrapper cyan lighten-3">
      <div class="col s12" aria-label="breadcrumb">
@@ -96,7 +96,7 @@ accordionElems.forEach((accordionElem) => {
 3. **Carousel (Home):**
 
 - **html**
-~~~
+~~~html
      <div aria-hidden="true" class="carousel carousel-slider">
        <a tabindex="-1" class="carousel-item" href="#one!"><img src="https://i.picsum.photos/id/1/800/400.jpg"></a>
        <a tabindex="-1" class="carousel-item" href="#two!"><img src="https://i.picsum.photos/id/20/800/400.jpg"></a>
@@ -106,7 +106,7 @@ accordionElems.forEach((accordionElem) => {
 ~~~
 
 - **js**
-~~~
+~~~JavaScript
 document.addEventListener('DOMContentLoaded', function () {
  let elems = document.querySelectorAll('.carousel');
  let options = {
