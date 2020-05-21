@@ -40,4 +40,8 @@ El objetivo que se pretende conseguir con esta [práctica](P8/Informe_WAI-ARIA.m
 - [Hosted](https://WebMaterialize--pmolmar.repl.co)<br>
 El objetivo de esta [práctica](P9/Informe_Widgets.md) consiste en aplicar distintos **widgets de Materialize** como *carousel*, *accordion* y *breadcrums*. Estas hay que adaptarlas tanto para la usabilidad como accesibiidad del usuario. Así mismo, se trabaja tanto con *aria* para que dicha accesibilidad se aprecie al usar *ChromeVox*.
 
+## Práctica 10: Diseño Responsive
+- [Hosted](https://responsive--pmolmar.repl.co/)<br>
+El objetivo que persigue esta [práctica](P10/Informe_Responsive.md) se basa en aplicar, sobre el fichero html de la práctica 2, estilos css para la redimensión de la web en función a la visualización de la página que se está desarrollando, ya sea en dispositivos móviles, tablets u ordenadores.
+
 

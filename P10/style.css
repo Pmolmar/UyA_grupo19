@@ -1,0 +1,43 @@
+/* mobile */
+body {
+  background: lightcoral;
+}
+#searchbar
+{
+  visibility: hidden;
+}
+
+#login, #singup
+{
+  text-align: center;
+}
+
+/* tablet */
+@media only screen and (min-width: 600px){ 
+  body{
+  background: lightgreen;
+  }
+  #searchbar
+  {
+    visibility: visible;
+  }
+  #login, #singup
+  {
+    text-align: left;
+  }
+  footer
+  {
+    text-align: center;
+  }
+  h1
+  {
+    text-align: center;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1025px){
+  body{
+  background: lightblue;
+  }
+}
