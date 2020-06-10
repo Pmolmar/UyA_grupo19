@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Banco de Tiempo</title>
+    <link rel="shortcut icon" type="image/ico" href="./assets/favicon.ico"/>
+
+    <!-- Nuestros stilos -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!--Google Font  -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper cyan lighten-3">
+          <a href="./index.html" class="brand-logo left" aria-label="Logo de pagina" role="button"><i aria-hidden="true" class="material-icons">access_time</i>Banco de Tiempo</a>
+          <a href="#" data-target="mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li role="menuitem"><a href="./index.html" aria-label="Home">Home</a></li>
+            <li role="menuitem"><a href="./novedades.html" aria-label="Novedades" >Novedades</a></li>
+            <li role="menuitem"><a href="./foro.html" aria-label="Foro" >Foro</a></li>
+            <li role="menuitem"><a href="./funcionamiento.html" aria-label="Funcionamiento" >Funcionamiento</a></li>
+          </ul>
+
+          <ul aria-hidden="true" class="sidenav" id="mobile">
+            <li tabindex="-1"><a href="./index.html">Home</a></li>
+            <li tabindex="-1"><a href="./novedades.html">Novedades</a></li>
+            <li tabindex="-1"><a href="./foro.html">Foro</a></li>
+            <li tabindex="-1"><a href="./funcionamiento.html">Funcionamiento</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div>
+        <nav>
+          <div class="nav-wrapper cyan lighten-2">
+            <div class="col s12">
+              <a href="./index.html" class="breadcrumb">Home</a>
+              <a href="#" class="breadcrumb">Foro</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="container">
+      <h1>Foro</h1>
+      <h2>FAQS</h2>
+      <ul class="collapsible popout">
+        <li>
+          <div class="collapsible-header"><i class="material-icons" aria-hidden="true">priority_high</i>Política de Seguridad</div>
+          <div class="collapsible-body"><span aria-expanded="true">Según el Real Decreto de la Normativa Reguladora 2/2018, cualquier vulnerabilidad del sistema será notificado a las autoridades y a los usuarios del servicio</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons" aria-hidden="true">priority_high</i>Cómo encontrar un servicio</div>
+          <div class="collapsible-body"><span>Primero, ha de registrarse/iniciar sesión y acceder al apartado de novedades de la web, donde encontrará información actualizada de interés</span></div>
+        </li>
+      </ul>
+
+      <ul class="pagination">
+        <li role="tablist" class="waves-effect"><a href="./foro.html" aria-label="Retroceder"><i class="material-icons cyan lighten-3">chevron_left</i></a></li>
+        <li role="tablist" class="waves-effect marca"><a href="./foro.html" aria-label="Foro página 1">1</a></li>
+        <li role="tablist" class="active cyan marca"><a href="./foro2.html" aria-label="Foro página 2">2</a></li>
+        <li role="tablist" class="waves-effect marca"><a href="./foro3.html" aria-label="Foro página 3">3</a></li>
+        <li role="tablist" class="waves-effect"><a href="./foro3.html" aria-label="Avanzar"><i class="material-icons cyan lighten-3">chevron_right</i></a></li>
+      </ul>
+    </main>
+    
+
+    <footer class="page-footer cyan lighten-3">
+      <div class="row">
+        <div class="col s3 offset-s1">Tlf: 666-666-666</div>
+        <div class="col s3 offset-s1">Email: empresa@ull.es</div>
+        <div class="col s3 offset-s1">Compañia S.L</div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">© 2020 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">Información Legal</a>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <!-- Nuestro script -->
+    <script type="text/javascript" src="js/foro.js"></script>
+  </body>
+</html>
