@@ -1,0 +1,26 @@
+{
+  "name": "UyA_grupo19",
+  "version": "1.0.0",
+  "description": "Prototipo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel serve Prototipo-Proyecto_final/src/index.html --open",
+    "build": "parcel build Prototipo-Proyecto_final/src/index.html --public-url /UyA_grupo19/ -d build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pmolmar/UyA_grupo19.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pmolmar/UyA_grupo19/issues"
+  },
+  "homepage": "https://github.com/Pmolmar/UyA_grupo19#readme",
+  "devDependencies": {
+    "gh-pages": "^3.0.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
